@@ -168,7 +168,7 @@ resource "azurerm_backup_policy_file_share" "policy" {
     create  = local.timeout_create
     delete  = local.timeout_delete
     read    = local.timeout_read
-    update  = local.timeout_update
+#    update  = local.timeout_update
   }
 }
 
